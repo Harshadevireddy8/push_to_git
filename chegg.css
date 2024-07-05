@@ -1,0 +1,48 @@
+body{
+    background-image: url(images/Pawan.jpeg);
+}
+.leftimg{
+    align-items: left;
+    margin-left:20px;
+    margin-top:15px;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left:300px;
+    margin-top:200px;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left:325px;
+    margin-top:15px;
+}
+.search{
+    background-color:white;
+    color:grey;
+    height:36px;
+    width:600px;
+    border:2px;
+    border-radius:5px;
+    border:solid;
+    border-color: orange;
+    margin-left:50px;
+    margin-right:5px;
+    text-align: left;
+}
+.join{
+    background-color: orange;
+    color:white;
+    border-radius:18px;
+    height:36px;
+    width:350px;
+    border:none;
+    display:inline-block;
+    float:right;
+}
+.join:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 10px 10px 20px black;
+}
